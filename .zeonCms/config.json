@@ -6,77 +6,82 @@
   "content": {
     "root": "content"
   },
-  "themeConfig": ["config/config.json", "config/menu.json", "config/social.json", "config/theme.json"],
-  "arrangement": {
-    "content/_index.md": {
-      "Page Index": {
-        "weight": 0
-      }
+  "themeConfig": [
+    "config/config.json",
+    "config/menu.json",
+    "config/social.json",
+    "config/theme.json"
+  ],
+  "arrangement": [
+    {
+      "type": "file",
+      "targetPath": "content/_index.md",
+      "groupName": "Page Index"
     },
-    "content/sections/about-barry.md": {
-      "About Barry": {
-        "weight": 1
-      }
+    {
+      "type": "file",
+      "targetPath": "content/sections/about-barry.md",
+      "groupName": "About Barry"
     },
-    "content/sections/highlights.md": {
-      "Highlights": {
-        "weight": 2
-      }
+    {
+      "type": "file",
+      "targetPath": "content/sections/highlights.md",
+      "groupName": "Highlights"
     },
-    "content/sections/testimonials.md": {
-      "Testimonials": {
-        "weight": 3
-      }
+    {
+      "type": "file",
+      "targetPath": "content/sections/testimonials.md",
+      "groupName": "Testimonials"
     },
-    "content/sections/clients.md": {
-      "Clients": {
-        "weight": 4
-      }
+    {
+      "type": "file",
+      "targetPath": "content/sections/clients.md",
+      "groupName": "Clients"
     },
-    "content/sections/keynote-speaker.md": {
-      "Keynote Speakers": {
-        "weight": 5
-      }
+    {
+      "type": "file",
+      "targetPath": "content/sections/keynote-speaker.md",
+      "groupName": "Keynote Speakers"
     },
-    "content/sections/panels.md": {
-      "Panels": {
-        "weight": 6
-      }
+    {
+      "type": "file",
+      "targetPath": "content/sections/panels.md",
+      "groupName": "Panels"
     },
-    "content/sections/live-events.md": {
-      "Live Events": {
-        "weight": 7
-      }
+    {
+      "type": "file",
+      "targetPath": "content/sections/live-events.md",
+      "groupName": "Live Events"
     },
-    "content/sections/podcasts.md": {
-      "Podcasts": {
-        "weight": 8
-      }
+    {
+      "type": "file",
+      "targetPath": "content/sections/podcasts.md",
+      "groupName": "Podcasts"
     },
-    "content/sections/retreats.md": {
-      "Retreats": {
-        "weight": 9
-      }
+    {
+      "type": "file",
+      "targetPath": "content/sections/retreats.md",
+      "groupName": "Retreats"
     },
-    "content/sections/mission.md": {
-      "Mission": {
-        "weight": 10
-      }
+    {
+      "type": "file",
+      "targetPath": "content/sections/mission.md",
+      "groupName": "Mission"
     },
-    "content/sections/biography.md": {
-      "Biography": {
-        "weight": 11
-      }
+    {
+      "type": "file",
+      "targetPath": "content/sections/biography.md",
+      "groupName": "Biography"
     },
-    "content/sections/GALLERY.md": {
-      "Gallery Images": {
-        "weight": 12
-      }
+    {
+      "type": "file",
+      "targetPath": "content/sections/GALLERY.md",
+      "groupName": "Gallery Images"
     },
-    "content/404.md": {
-      "404": {
-        "weight": 13
-      }
+    {
+      "type": "file",
+      "targetPath": "content/404.md",
+      "groupName": "404"
     }
-  }
+  ]
 }
